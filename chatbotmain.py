@@ -1,6 +1,7 @@
 
 import streamlit as st
 import ollama
+print("Ollama imported successfully")
 
 st.set_page_config(
     page_title = "Health Assistant",
@@ -91,7 +92,7 @@ with st.sidebar:
 question = st.text_input("Ask freely , Care wisely")
 def health(question):
     response = ollama.chat(
-        model = 'llama3.2:1b ',
+        model = 'llama3.2:1b',
         messages = [
             {
                 'role' : 'system',
