@@ -17,7 +17,7 @@ st.markdown("""
 
 .stChatMessage {
     border-radius: 15px;
-    padding: 10px;
+    padding: 12px;
 }
 
 .stTextInput input {
